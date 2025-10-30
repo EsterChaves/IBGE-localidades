@@ -1,0 +1,68 @@
+
+:root {
+    --cor-primaria: #ff7700; 
+    --cor-secundaria: #343a40; 
+    --cor-fundo-claro: #f8f9fa; 
+    --cor-borda: #ff7700;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cor-fundo-claro);
+    color: var(--cor-secundaria);
+}
+
+.custom-header {
+    background-color: white; 
+    border-bottom: 4px solid var(--cor-primaria); 
+    padding: 30px 0; 
+}
+
+.custom-header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--cor-primaria);
+}
+
+.engnet-logo-img {
+    height: 50px; 
+    width: auto; 
+    align-self: center; 
+}
+
+.subtitle {
+    color: var(--cor-primaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.custom-select {
+    width: 250px !important; 
+    text-align: center;
+    border: 1px solid #ccc;
+    font-weight: bold;
+}
+
+.municipios-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 15px; 
+    margin-top: 30px;
+}
+
+.municipios-col {
+    border: 2px solid var(--cor-borda);
+    padding: 10px;
+    background-color: white;
+}
+
+.municipios-col p {
+    margin-bottom: 5px;
+    padding: 5px 0;
+    border-bottom: 1px dashed #ddd; 
+    text-align: center; 
+}
+
+.municipios-col p:last-child {
+    border-bottom: none; 
+}
